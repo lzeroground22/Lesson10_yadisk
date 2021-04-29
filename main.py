@@ -38,6 +38,6 @@ class YaUploader:
 
 
 if __name__ == '__main__':
-    uploader = YaUploader('AQAAAAA36m8ZAADLW6XIsrMVfk9ImIKjJD3zTy0')
+    uploader = YaUploader('<Your Yandex Disk token>')
     result = uploader.upload("D:\Python\Disk_file.txt")
     print(result)
